@@ -1,3 +1,5 @@
+package ant;
+
 import java.util.Scanner;
 
 class ColonyInitialization {

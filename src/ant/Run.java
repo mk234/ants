@@ -1,3 +1,5 @@
+package ant;
+
 class Run {
 
     private ColonyInitialization colonyInitialization = new ColonyInitialization();

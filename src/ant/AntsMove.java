@@ -1,3 +1,5 @@
+package ant;
+
 import java.util.Arrays;
 
 class AntsMove {

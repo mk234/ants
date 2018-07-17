@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
- class ColonyInitialization {
+class ColonyInitialization {
 
 
-     Ant[] allocationAntsArray(char[] alphabet, int greenAnts, int blueAnts) {
+    Ant[] allocationAntsArray(char[] alphabet, int greenAnts, int blueAnts) {
         Ant[] ants = new Ant[greenAnts + blueAnts];
         for (int i = 0; i < greenAnts; i++) {
             ants[i] = new Ant(alphabet[i], Direction.R, Color.GREEN);
@@ -15,7 +15,7 @@ import java.util.Scanner;
         return ants;
     }
 
-     char[] getAlphabet(int length) {
+    char[] getAlphabet(int length) {
         char[] alphabet = new char[length];
         for (int i = 0; i < length; i++) {
             alphabet[i] = (char) (65 + i);
@@ -23,7 +23,7 @@ import java.util.Scanner;
         return alphabet;
     }
 
-     int getInputNumber(String message) {
+    int getInputNumber(String message) {
         Scanner sc = new Scanner(System.in);
         System.out.println(message);
         int number;

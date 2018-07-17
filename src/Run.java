@@ -1,7 +1,7 @@
- class Run {
+class Run {
 
-   private ColonyInitialization colonyInitialization = new ColonyInitialization();
-   private AntsMove antsMove = new AntsMove();
+    private ColonyInitialization colonyInitialization = new ColonyInitialization();
+    private AntsMove antsMove = new AntsMove();
 
     void print(Ant[] ants) {
         for (Ant ant : ants) {

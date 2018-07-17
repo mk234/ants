@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
- class AntsMove {
+class AntsMove {
 
     Ant[] antsMove(int steps, Ant[] ants) {
         Ant[] antsCopy;

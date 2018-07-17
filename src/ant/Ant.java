@@ -1,3 +1,5 @@
+package ant;
+
 class Ant {
     private char name;
     private Color color;
